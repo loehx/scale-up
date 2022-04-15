@@ -1,0 +1,27 @@
+{
+  "name": "scale-up",
+  "version": "1.0.0",
+  "description": "Scale up image using AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "jest --watch",
+    "test": "jest --verbose"
+  },
+  "author": "Alexander Löhn",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.15.0",
+    "adm-zip": "^0.5.5",
+    "axios": "^0.21.1",
+    "cli-progress": "^3.10.0",
+    "glob": "^7.1.6",
+    "jest": "^26.6.3",
+    "key-file-storage": "^2.2.10",
+    "lodash": "^4.17.21",
+    "lodash-transpose": "^0.2.1",
+    "moment": "^2.29.2",
+    "node-gyp": "8.0.0",
+    "nodeplotlib": "^0.7.3",
+    "pretty-ms": "^7.0.1"
+  }
+}
