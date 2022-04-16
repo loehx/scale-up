@@ -1,19 +1,11 @@
-const { assert, ensure } = require("./assertion");
-const Cache = require("./cache");
-const indicators = require("./indicators");
-const { Log } = require("./log");
-const MemCache = require("./MemCache");
-const { plot2d, plot3d } = require("./plotting");
-const util = require("./util");
+import { assert, ensure } from "./assertion";
+import { Log } from "./log";
+import util from "./util";
+import image from "./image";
 
-module.exports = {
-	assert, 
-	ensure,
-	Cache,
-	indicators,
-	Log,
-	MemCache,
-	plot2d,
-	plot3d,
-	util,
+export default {
+  assert,
+  ensure,
+  Log,
+  util,
 };
